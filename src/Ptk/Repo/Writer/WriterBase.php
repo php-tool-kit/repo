@@ -10,5 +10,5 @@ abstract class WriterBase implements WriterInterface {
         
     }
 
-    abstract public function read();
+    abstract public function write();
 }

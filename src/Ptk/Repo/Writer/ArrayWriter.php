@@ -4,7 +4,7 @@ namespace Ptk\Repo\Writer;
 
 class ArrayWriter extends WriterBase {
 
-    public function read() {
+    public function write() {
 
     }
 }
