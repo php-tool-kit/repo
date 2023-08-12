@@ -2,9 +2,11 @@
 
 namespace Ptk\Repo\Writer;
 
-class ArrayWriter extends WriterBase {
+use Ptk\Repo\Repo;
 
-    public function write() {
+class ArrayWriter implements WriterInterface {
+
+    public function write(Repo $repo) {
 
     }
 }
